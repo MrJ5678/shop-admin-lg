@@ -9,3 +9,8 @@ declare module '*.vue' {
 
 declare module 'vite'
 declare module '@vitejs/plugin-vue';
+
+// eslint-disable-next-line no-unused-vars
+interface ImportMetaEnv {
+  VITE_API_BASEURL: string
+}
